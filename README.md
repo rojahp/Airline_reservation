@@ -1,6 +1,6 @@
 # Airline_reservation
-An airline company needs you to implement a system to help book seats on flights. This airline company has only one kind of plane with 20 rows, each row with a seat arrangement like so where ‘x’ represents a seat:
-| xx _ xxxx _ xx |
+An airline company needs you to implement a system to help book seats on flights. This airline company has only one kind of plane with 20 rows, each row with a seat arrangement like so where ‘x’ represents a seat:  
+| xx _ xxxx _ xx |  
 Seats are identified using a letter to indicate the row and a number to represent the position in the row. The first row is identified as ‘A’ and the first seat in row A is ‘0’ and is thereby identified as ‘A0’. Payment information is handled by another team and system, so we only need to focus on the reservation of the seats themselves.
 
 ## Requirements
@@ -18,11 +18,11 @@ Seats are identified using a letter to indicate the row and a number to represen
 12. This should not be an interactive terminal. It must be a command-line driven input.
 
 ## Usage
-Run the app the following way:
-    `./Solution.py BOOK|CANCEL ROW_NUM_SEAT_NUM NUM_OF_SEATS`
-Examples:
-    `./Solution.py BOOK A1 4`
-    `./Solution.py CANCEL A2 1`
-
-If you want to run pre-defined test-cases, do the following:
-    sh tests.sh
+Run the app the following way:  
+    `./Solution.py BOOK|CANCEL ROW_NUM_SEAT_NUM NUM_OF_SEATS`  
+Examples:  
+    `./Solution.py BOOK A1 4`  
+    `./Solution.py CANCEL A2 1`  
+  
+If you want to run pre-defined test-cases, do the following:  
+    `sh tests.sh`  
